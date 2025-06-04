@@ -20,6 +20,7 @@ Install dependencies using:
 pip install snowflake-connector-python pandas openpyxl pyarrow
 
 - Change connection to your snowflake destination
+
 connection = snowflake.connector.connect(
     user="YOUR USERNAME",
     password="YOUR PASSWORD",
@@ -29,4 +30,5 @@ connection = snowflake.connector.connect(
 )
 
 - Add Files you would like to add, along with the name you would like it to have in Snowflake
+
 data = [["filename.csv", "TargetTableName"], ...]
