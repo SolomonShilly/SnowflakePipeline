@@ -14,11 +14,9 @@ This Python script automates the process of creating a schema, stage, and upload
 
 - Python 3.7+
 - Snowflake Python Connector
-- pandas
+- Pandas
 
 Install dependencies using:
-
-```bash
 pip install snowflake-connector-python pandas openpyxl pyarrow
 
 - Change connection to your snowflake destination
