@@ -1,8 +1,8 @@
-# Snowflake Data Uploader
+## Snowflake Data Uploader
 
 This Python script automates the process of creating a schema, stage, and uploading multiple datasets (CSV, Excel, and Parquet files) into Snowflake tables.
 
-## Features
+### Features
 
 - Automatically creates a new schema and stage in Snowflake.
 - Detects file type and converts Excel to CSV.
@@ -10,7 +10,7 @@ This Python script automates the process of creating a schema, stage, and upload
 - Creates corresponding tables in Snowflake.
 - Uploads data to Snowflake using the `PUT` and `COPY INTO` commands.
 
-## Requirements
+### Requirements
 
 - Python 3.7+
 - Snowflake Python Connector
