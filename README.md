@@ -1,6 +1,7 @@
 ## Snowflake Data Uploader
 
-This Python script automates the process of creating a schema, stage, and uploading multiple datasets (CSV, Excel, and Parquet files) into Snowflake tables.
+### Purpose
+- This Python script automates the process of creating a schema, stage, and uploading multiple datasets (CSV, Excel, and Parquet files) into Snowflake tables.
 
 ### Features
 
